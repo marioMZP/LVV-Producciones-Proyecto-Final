@@ -1,0 +1,55 @@
+.logo__img {
+    width: 50px;
+    height: auto;
+}
+.nav {
+    background: #293241;
+    height: 45px;
+    width: 100%;
+    color: white;
+}
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav__menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+    float: inline-start;
+    top: 0;
+}
+.nav__item {
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+.nav__item:after {
+    content: "";
+    display: block;
+    background: white;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path .4s;
+}
+.nav__item:hover {
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.nav__input:checked + .nav__menu {
+    background: #293241;
+}
+.nav__label, .nav__input {
+    display: none;
+}
+
+a {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}

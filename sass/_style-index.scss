@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.bloque-main {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    #carouselExampleControls {
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        width: 48%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    p {
+        background: linear-gradient(#0099ff ,#66cc33);
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        border: 2px solid rgb(36, 3, 36);
+        border-radius: 10% 0 10% 0;
+        width: 37%;
+        max-height: 305px;
+        margin: 50px auto 50px;
+        padding: 3%; 
+        text-align: center;
+    }
+}
+
+.principal {
+    width: 100%;
+    height: auto;
+
+    & &__titulo {
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border: 2px solid rgb(36, 3, 36);
+    } 
+
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    & &__subtitulo {
+        margin: 15px auto;
+        text-align: center;
+        a {
+            text-decoration: none;
+        }
+    }  
+}
+
+.segmento {
+    width: 90%;
+    height: auto;
+    margin:40px auto 0;
+    h3 {
+        margin-top: 25px;
+        text-align: center;
+        background: radial-gradient(#66cc33, #0099ff);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border: 2px solid rgb(36, 3, 36);
+        border-radius: 80% 20%;
+    }
+    p {
+        text-align: center;
+        font-size: large;
+    }
+}

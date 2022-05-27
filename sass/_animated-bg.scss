@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  
+  .bg {
+    animation:slide 4s ease-in-out infinite alternate;
+    background-image: linear-gradient(-50deg, #66cc33 50%, #0099ff 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.4;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+
+  .bg-nm {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #c733cc 50%, #ff0000 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.4;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2-nm {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3-nm {
+    animation-duration:5s;
+  }
+
+  .bg-llb {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #33cc3b 50%, #ffd900 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.4;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2-llb {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3-llb {
+    animation-duration:5s;
+  }
+
+  .bg-tp {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #f76511 50%, #cc33ab 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.4;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2-tp {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3-tp {
+    animation-duration:5s;
+  }
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+  .bg-tu {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #44e01c 50%, #cc33a6 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2-tu {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3-tu {
+    animation-duration:5s;
+  }
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
